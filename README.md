@@ -10,7 +10,7 @@ This repository provides a complete pipeline to:
 
 1. **Generate ideal CV data** (`Generate_Ideal_Data.ipynb`) — Simulate cyclic voltammograms at multiple scan rates using the Butler–Volmer formalism. The output includes the total current as well as the separated **capacitive** and **faradaic** contributions, which serve as a ground-truth benchmark.
 
-2. **Separate contributions experimentally** (`DunnMethod`) — Apply the Dunn method to real or synthetic CV data acquired at different scan rates to deconvolute the total current into:
+2. **Separate contributions experimentally** (`DunnMethod.ipynb`) — Apply the Dunn method to real or synthetic CV data acquired at different scan rates to deconvolute the total current into:
    - **Capacitive current** ($i_c = k_1 \nu$)
    - **Faradaic/diffusional current** ($i_f = k_2 \sqrt{\nu}$)
 
